@@ -1,4 +1,4 @@
-import About from "./components/About";
+import About2 from "./components/About2";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
@@ -15,7 +15,7 @@ const App = () => {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
-        <About />
+        <About2 />
         <Technologies />
         <Experience />
         <Projects />
