@@ -1,10 +1,11 @@
-import book from '../assets/book.png'
-import pc from '../assets/pc.png'
-import card from '../assets/card.png'
+// import pc from '../assets/pc.png'
+// import card from '../assets/card.png'
 // import finance from '../assets/finance.png'
 import {motion} from 'framer-motion'
 import problemSolving from '../assets/image.png'
 import education from '../assets/education.png'
+import experience from '../assets/experience.png'
+import technologies from '../assets/technologies.png'
 
 const About2 = () => {
   return (
@@ -26,7 +27,7 @@ const About2 = () => {
             <h2 className="text-2xl font-bold text-white/80">
                Education
             </h2>
-            <p className="text-lg text-white/70 mt-2">I hold a degree in Computer Scince and i am focusing on technologies like React, Next.js, and Tailwind CSS.</p>
+            <p className="text-lg text-white/70 mt-2">I hold a degree in Electronics and Communication and i am focusing on technologies like React, Next.js, and Tailwind CSS.</p>
           </div>
         </div>
 
@@ -34,7 +35,7 @@ const About2 = () => {
         <div className='w-full col-span-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'> 
         <div className="flex flex-row p-6">
           <img className='w-auto h-[130px]' src={problemSolving} alt="book" />
-          <div className="flex flex-col mt-4 px-3">
+          <div className="flex flex-col mt-4 px-0">
             <h2 className="text-2xl font-bold text-white/80">
                Problem-Solving
             </h2>
@@ -46,7 +47,7 @@ const About2 = () => {
 
         <div className='w-full col-span-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'> 
         <div className="flex flex-row p-6">
-          <img className='w-auto h-[130px]' src={card} alt="book" />
+          <img className='w-auto h-[130px]' src={experience} alt="book" />
           <div className="flex flex-col mt-4 px-3">
             <h2 className="text-2xl font-bold text-white/80">
                Experience
@@ -59,8 +60,8 @@ const About2 = () => {
 
         <div className='w-full col-span-5 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'> 
         <div className="flex flex-row p-6">
-          <img className='w-auto h-[130px]' src={pc} alt="book" />
-          <div className="flex flex-col mt-4 px-0">
+          <img className='w-auto mt-[-10px] h-[130px]' src={technologies} alt="book" />
+          <div className="flex flex-col mt-4 px-3">
             <h2 className="text-2xl font-bold text-white/80">
                Technical skills
             </h2>

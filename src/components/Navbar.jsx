@@ -1,8 +1,12 @@
 import logo from "../assets/logo.png";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
+// import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa";
+import linkedin from '../assets/linkedin.png'
+import github from '../assets/github.png'
+import instagram from '../assets/instagram.png'
+import twitter from '../assets/x.png'
 
 const Navbar = () => {
   return (
@@ -16,28 +20,35 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin />
+          {/* <FaLinkedin /> */}
+          <img className="w-7" src={linkedin} alt="linkdin" />
         </a>
         <a
           href="https://github.com/Harsh7880"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub />
+          {/* <FaGithub /> */}
+          <img className="w-7" src={github} alt="linkdin" />
+
         </a>
         <a
           href="https://www.instagram.com/harsh_7880/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram />
+          {/* <FaInstagram /> */}
+          <img className="w-7" src={instagram} alt="linkdin" />
+
         </a>
         <a
           href="https://x.com/harshk8478"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaSquareXTwitter />
+          <img className="w-7" src={twitter} alt="linkdin" />
+
+          {/* <FaSquareXTwitter /> */}
         </a>
       </div>
     </nav>
