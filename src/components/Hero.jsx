@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../utils/constants";
-import profilePic from "../assets/kevinRushProfile.png";
+// import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
+import harsh from "../assets/harsh.webp";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -21,7 +22,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-bold tracking-tight lg:mt-16 lg:text-8xl"
             >
               Harsh Kumar
             </motion.h1>
@@ -49,8 +50,9 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
+              src={harsh}
               alt="Harsh Kumar"
+              className="rounded-[10%] h-[500px]"
             />
           </div>
         </div>
