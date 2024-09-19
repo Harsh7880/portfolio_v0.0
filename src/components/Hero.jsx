@@ -18,7 +18,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-800 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start ml-20">
@@ -26,9 +26,9 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-2 text-6xl font-bold text-white/80 tracking-tight lg:mt-16 lg:text-7xl"
+              className="pb-2 text-6xl font-bold text-white/90 tracking-tight lg:mt-16 lg:text-7xl"
             >
-              Hello I am Harsh Kumar
+              Hello, I am Harsh Kumar
             </motion.h1>
 
             <motion.p
@@ -43,42 +43,42 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="flex items-center justify-center gap-4 text-2xl"
+              className="flex items-center justify-center gap-6"
             >
               <a
                 href="https://www.linkedin.com/in/harshkumar7880/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="w-7" src={linkedin} alt="linkdin" />
+                <img className="w-9 hover:scale-110 transition-all duration-200" src={linkedin} alt="linkdin" />
               </a>
               <a
                 href="https://github.com/Harsh7880"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="w-8" src={github} alt="github" />
+                <img className="w-9 hover:scale-110 transition-all duration-200" src={github} alt="github" />
               </a>
               <a
                 href="https://www.instagram.com/harsh_7880/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="w-8" src={instagram} alt="instagram" />
+                <img className="w-9 hover:scale-110 transition-all duration-200" src={instagram} alt="instagram" />
               </a>
               <a
                 href="https://x.com/harshk8478"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="w-8" src={twitter} alt="twitter" />
+                <img className="w-9 hover:scale-110 transition-all duration-200 rotate-6" src={twitter} alt="twitter" />
               </a>
               <a
                 href="vijayk8478@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="w-8" src={email} alt="email" />
+                <img className="w-11 hover:scale-110 transition-all duration-200" src={email} alt="email" />
               </a>
             </motion.div>
           </div>
